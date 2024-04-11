@@ -29,15 +29,14 @@ SECRET_KEY = env('SECRET_KEY')
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-production_server = 'https://sge-deploy-production.up.railway.app/'
 
 ALLOWED_HOSTS = ['http://localhost',
                  '127.0.0.1',
-                 production_server]
+                 'https://sge-deploy-production.up.railway.app/']
 
 CFRS_TRUSTED_ORIGINS = ['http://localhost',
                  '127.0.0.1',
-                 production_server]
+                 'https://sge-deploy-production.up.railway.app/']
 
 
 # Application definition
