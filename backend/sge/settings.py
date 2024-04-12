@@ -32,11 +32,11 @@ DEBUG = True
 
 ALLOWED_HOSTS = ['http://localhost',
                  '127.0.0.1',
-                 '*']
+                 'sge-deploy-production.up.railway.app']
 
 CFRS_TRUSTED_ORIGINS = ['http://localhost',
                  '127.0.0.1',
-                 '*']
+                 'sge-deploy-production.up.railway.app']
 
 
 # Application definition
